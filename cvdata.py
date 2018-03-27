@@ -32,7 +32,7 @@ while True:
         cv2.imwrite('./train/nothing/nothing'+str(num)+'.jpg', res)
         num += 1
     if k == 48:
-        cv2.imwrite('./train/jump/duck'+str(num)+'.jpg',+ res)
+        cv2.imwrite('./train/duck/duck'+str(num)+'.jpg',+ res)
         num += 1    
     if k == 51:
         break
